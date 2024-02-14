@@ -11,6 +11,12 @@
 }
 
 @media only screen and (max-width: 1201px) {
+    .balloon {
+        width: 400px;
+        max-width: 100%;
+        top: 10%;
+    }
+
     .carousel-bg {
         width: 94%;
         max-width: 94%;
@@ -33,6 +39,10 @@
     .carousel-bg {
         width: 93%;
         max-width: 93%;
+    }
+
+    .carousel-image {
+        gap: .5rem;
     }
 
     .carousel-image img {
@@ -79,7 +89,6 @@
     .balloon {
         width: 50%;
         max-width: 60%;
-        top: 10%;
     }
     
     .image-container {
@@ -93,7 +102,7 @@
     }
 
     .carousel-image img {
-        width: 150px;
+        width: 170px;
     }
 
     .last-image-container {
@@ -128,7 +137,7 @@
         flex-direction: column;
     }
 
-    .contact-container {
+    .contact-container, .reserved {
         text-align: center;
     }
 }
